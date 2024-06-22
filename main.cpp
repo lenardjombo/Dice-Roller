@@ -32,7 +32,7 @@ DiceRoller::DiceRoller(QWidget *parent) : QWidget(parent) {
     setLayout(layout);
 
     setWindowTitle("Dice Roller");
-    resize(200, 100);
+    resize(200, 110);
 }
 
 void DiceRoller::rollDice() {
