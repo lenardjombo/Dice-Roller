@@ -37,7 +37,7 @@ DiceRoller::DiceRoller(QWidget *parent) : QWidget(parent) {
 
 void DiceRoller::rollDice() {
     int result = QRandomGenerator::global()->bounded(1, 7); // Generates a random number between 1 and 6
-    resultLabel->setText("You rolled: " + QString::number(result));
+    resultLabel->setText("You rolled:  " + QString::number(result));
 }
 
 int main(int argc, char *argv[]) {
